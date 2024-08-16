@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        Zumbi z = new Zumbi();
-        z.nome = "vinicius";
-        z.idade= 19;
+        Zumbi zumbi = new Zumbi();
+        zumbi.nome = "vinicius";
+        zumbi.idade= 19;
 
-        System.out.println("Nome do zumbi: " + z.nome + "sua idade é:" +z.idade);
+        z.seAlimentar()://chama a instacia mostrando o nome e falando que tal zumbio esta se aliemntadno
     }
 }
